@@ -11,14 +11,14 @@
 
 # Apache Configuration Example
 
-> # Configure access to usvn
-> Alias /usvn /path/to/usvn/public
-> <Directory "/path/to/usvn/public">
->     Options +SymLinksIfOwnerMatch
->     AllowOverride All
->     Order allow,deny
->     Allow from all
-> </Directory>
+    # Configure access to usvn
+    Alias /usvn /path/to/usvn/public
+    <Directory "/path/to/usvn/public">
+        Options +SymLinksIfOwnerMatch
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
 
 # Install USVN
 
