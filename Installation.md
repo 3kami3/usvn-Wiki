@@ -10,16 +10,15 @@
 * mod_dav_svn enable (in Apache httpd.conf - DSO support - "LoadModule dav_svn_module modules/mod_dav_svn.so")
 
 # Apache Configuration Example
-`
-# Configure access to usvn
-Alias /usvn /path/to/usvn/public
-<Directory "/path/to/usvn/public">
-    Options +SymLinksIfOwnerMatch
-    AllowOverride All
-    Order allow,deny
-    Allow from all
-</Directory>
-`
+
+> # Configure access to usvn
+> Alias /usvn /path/to/usvn/public
+> <Directory "/path/to/usvn/public">
+>     Options +SymLinksIfOwnerMatch
+>     AllowOverride All
+>     Order allow,deny
+>     Allow from all
+> </Directory>
 
 # Install USVN
 
