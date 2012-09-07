@@ -1,4 +1,4 @@
-_This was copied from Google-cache version of installation documentation at trac.usvn.info. The sites www.usvn.info and trac.usvn.info were down when I was attempting to install USVN. So, it made sense to put some of this documentation on GitHub as it is probably a little more reliable than usvn.info. Unfortunately, several images are missing and the documentation is not quite complete. Please update this page if you have some time and knowledge of the installation process._
+_This was copied from Google-cache version of [installation documentation](https://trac.usvn.info/wiki/Documentation) at trac.usvn.info. The sites www.usvn.info and trac.usvn.info were down when I was attempting to install USVN. So, it made sense to put some of this documentation on GitHub as it is probably a little more reliable than usvn.info. Unfortunately, several images are missing and the documentation is not quite complete. Please update this page if you have some time and knowledge of the installation process._
 
 # Dependencies
 
