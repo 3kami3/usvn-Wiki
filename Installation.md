@@ -2,7 +2,7 @@ _This was copied from Google-cache version of [installation documentation](https
 
 # Dependencies
 
-* PHP 5 (5.1.2 <= ver < 5.3)
+* PHP 5 (=> 5.3, USVN is using the SPL Class FilesystemIterator)
 * apache2
 * mod_dav enable (in Apache httpd.conf - DSO support - "LoadModule dav_module modules/mod_dav.so")
 * mod_dav_fs enable (in Apache httpd.conf - DSO support - "LoadModule dav_fs_module modules/mod_dav_fs.so")
