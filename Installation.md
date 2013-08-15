@@ -4,6 +4,7 @@ _This was copied from Google-cache version of [installation documentation](https
 
 * PHP 5 (=> 5.3, USVN is using the SPL Class FilesystemIterator)
 * apache2
+* php5-mysqlnd (ubuntu 12.04)
 * mod_dav enable (in Apache httpd.conf - DSO support - "LoadModule dav_module modules/mod_dav.so")
 * mod_dav_fs enable (in Apache httpd.conf - DSO support - "LoadModule dav_fs_module modules/mod_dav_fs.so")
 * mod_rewrite enable (in Apache httpd.conf - DSO support - "LoadModule rewrite_module modules/mod_rewrite.so")
