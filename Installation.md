@@ -117,6 +117,10 @@ On debian or ubuntu type:
 
     apt-get install libapache2-subversion
 
+    a2enmod dav_svn
+    a2enmod authz_svn
+
+
 ## Error 404 after the installation
 
 If you have an error 404 after the installation please authorize override of apache by .htaccess.
