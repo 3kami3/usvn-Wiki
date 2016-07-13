@@ -21,8 +21,11 @@ _This was copied from Google-cache version of [installation documentation](https
     <Directory "/path/to/usvn/public">
         Options +SymLinksIfOwnerMatch
         AllowOverride All
-        Order allow,deny
-        Allow from all
+        ## For Apache HTTP 2.2
+        #Order allow,deny
+        #Allow from all
+        ## For Apache HTTP 2.4
+        Require all granted
     </Directory>
 
 ## Apache configure access to usvn with https
@@ -40,8 +43,11 @@ _This was copied from Google-cache version of [installation documentation](https
     <Directory "/srv/www/htdocs/usvn/public">
         Options +SymLinksIfOwnerMatch
         AllowOverride All
-        Order allow,deny
-        Allow from all
+        ## For Apache HTTP 2.2
+        #Order allow,deny
+        #Allow from all
+        ## For Apache HTTP 2.4
+        Require all granted
     </Directory>
 
     <Location /usvn/svn/>
